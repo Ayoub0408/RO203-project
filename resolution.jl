@@ -1,3 +1,6 @@
+using JuMP
+using CPLEX
+
 function ipSolve(grid::Array{Int,2}, optimizer)
 
     # Start a chronometer
